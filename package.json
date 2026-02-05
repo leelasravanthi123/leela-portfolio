@@ -1,0 +1,18 @@
+{
+  "name": "leela-sravanthi-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Single-page portfolio for Pathella Leela Sravanthi, Associate Software Engineer (Backend).",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "backend",
+    "python",
+    "django",
+    "software-engineer"
+  ],
+  "license": "MIT"
+}
+
