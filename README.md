@@ -1,49 +1,67 @@
-# Portfolio – Pathella Leela Sravanthi
+# My Portfolio
 
-Single-page portfolio site for **Pathella Leela Sravanthi**, an Associate Software Engineer (Backend).
+A modern, minimalist portfolio website built with HTML, CSS, and JavaScript. Perfect for showcasing skills, experience, and projects in a clean, professional way.
 
-The site is a scrollable one-page layout with sections for:
+## Preview
 
-- Hero (name, role, short intro, social links)
-- About
-- Experience
-- Projects
-- Skills
-- Achievements & Certifications
-- Contact
+To view a live preview of the site, [click here](https://leelasravanthi123.github.io/leela-portofolio/).
 
-## How to run it locally
+## Built With
 
-1. Open the folder in your file explorer:
-   - `c:\Users\LeelaP\Downloads\LeelaP-Portofolio`
-2. Double-click `index.html` to open it in your browser (Chrome, Edge, etc.).
+- **HTML5** - Semantic markup and structure
+- **CSS3** - Custom properties, CSS Grid, Flexbox for responsive design
+- **Vanilla JavaScript** - Minimal interactivity and dynamic year updates
 
-That’s it – no build step or framework is required.
+## Features
 
-## Customizing
+- Single-page, scrollable design
+- Fully responsive (mobile-friendly)
+- Dark theme with modern UI
+- Sections: Hero, About, Experience, Projects, Skills, Achievements, Contact
+- Smooth scrolling navigation
+- Social media links integration
 
-- **Profile photo**:
-  - Currently, the hero section shows your initials (`LS`) in a gradient circle.
-  - If you want a real photo:
-    - Create a folder called `assets` next to `index.html`.
-    - Put your photo inside it as `profile.jpg`.
-    - Optionally, update the CSS in `styles.css` for `.hero-avatar` to use your image as a background.
+## Project Structure
 
-- **Text content**:
-  - All content lives in `index.html`.
-  - You can edit:
-    - Summary text in the **Hero** and **About** sections.
-    - Experience / Projects bullets.
-    - Skills, Achievements, Certifications, and Contact details.
+```
+LeelaP-Portofolio/
+├── index.html          # Main HTML file
+├── styles.css          # All styles and responsive design
+├── assets/
+│   └── profile.jpg     # Profile photo
+├── package.json        # Project metadata
+└── README.md           # This file
+```
 
-- **Colors & theme**:
-  - All colors are defined at the top of `styles.css` under the `:root` CSS variables.
-  - Change `--accent` and background values to tweak the theme.
+## Local Development
 
-## Next steps
+If you'd like to run it locally:
 
-- Once you’re happy with the portfolio, you can:
-  - Initialize a Git repository.
-  - Push it to GitHub as your portfolio repo.
+```bash
+git clone https://github.com/leelasravanthi123/LeelaP-Portofolio.git
+cd LeelaP-Portofolio
+```
 
-When you’re ready, I can walk you step by step through pushing this folder to GitHub from your machine.
+Then simply open `index.html` in your browser. No build process or dependencies required.
+
+## Deployment
+
+This portfolio can be easily deployed to:
+
+- **GitHub Pages** - Free hosting for static sites (recommended)
+- **Netlify** - Drag and drop deployment
+- **Vercel** - Fast static site hosting
+- Any static hosting service
+
+## Customization
+
+All content is in `index.html`. To customize:
+
+- Update personal information in the Hero section
+- Modify experience, projects, and skills in their respective sections
+- Change colors and theme in `styles.css` using CSS custom properties (`:root` variables)
+- Replace `assets/profile.jpg` with your own photo
+
+---
+
+**Pathella Leela Sravanthi** | Backend Software Engineer
